@@ -20,7 +20,12 @@
     "lint": "npm run lint:prettier && npm run lint:typescript",
     "lint:prettier": "prettier --check .",
     "lint:typescript": "tsc --noEmit src/*.ts test/*.ts",
-    "test": "NODE_ENV=test jest --coverage"
+    "test": "jest",
+    "test+coverage": "jest --coverage"
+  },
+  "jest": {
+    "clearMocks": true,
+    "coverageDirectory": "coverage"
   },
   "husky": {
     "hooks": {
