@@ -26,6 +26,7 @@
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
     "lint:typescript": "tsc --noEmit",
+    "prepack": "npm run build",
     "prepare": "husky install",
     "test": "jest",
     "test+coverage": "jest --coverage"
