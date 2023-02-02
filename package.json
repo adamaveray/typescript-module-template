@@ -19,7 +19,7 @@
     "format": "prettier --write .",
     "lint": "npm run lint:prettier && npm run lint:typescript",
     "lint:prettier": "prettier --check .",
-    "lint:typescript": "tsc --noEmit src/*.ts test/*.ts",
+    "lint:typescript": "tsc --noEmit",
     "test": "jest",
     "test+coverage": "jest --coverage"
   },
