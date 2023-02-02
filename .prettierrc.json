@@ -1,5 +1,1 @@
-{
-  "semi": true,
-  "singleQuote": true,
-  "trailingComma": "all"
-}
+node_modules/@averay/codeformat/.prettierrc.json
