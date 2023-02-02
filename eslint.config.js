@@ -1,4 +1,4 @@
-import { makeEslintConfig } from '@adamaveray/codeformat';
+import { makeEslintConfig } from '@averay/codeformat';
 
 export default [
   {
