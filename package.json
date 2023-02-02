@@ -16,8 +16,11 @@
   "scripts": {
     "build": "microbundle",
     "dev": "microbundle watch",
-    "format": "prettier --write .",
-    "lint": "npm run lint:prettier && npm run lint:typescript",
+    "format": "npm run format:prettier && npm run format:eslint",
+    "format:eslint": "eslint --fix .",
+    "format:prettier": "prettier --write .",
+    "lint": "npm run lint:prettier && npm run lint:eslint && npm run lint:typescript",
+    "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
     "lint:typescript": "tsc --noEmit",
     "test": "jest",
