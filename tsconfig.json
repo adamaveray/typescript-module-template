@@ -23,5 +23,5 @@
     "target": "esnext",
     "types": ["node", "jest"]
   },
-  "include": ["./src/*", "./test/*"]
+  "include": ["./src/**/*", "./test/**/*"]
 }
