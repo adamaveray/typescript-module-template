@@ -23,6 +23,7 @@
     "lint:eslint": "eslint .",
     "lint:prettier": "prettier --check .",
     "lint:typescript": "tsc --noEmit",
+    "prepare": "husky install",
     "test": "jest",
     "test+coverage": "jest --coverage"
   },
