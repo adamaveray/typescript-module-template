@@ -28,7 +28,9 @@
   },
   "jest": {
     "clearMocks": true,
-    "collectCoverageFrom": ["src/**/*.ts"],
+    "collectCoverageFrom": [
+      "src/**/*.ts"
+    ],
     "coverageDirectory": "coverage"
   },
   "husky": {
