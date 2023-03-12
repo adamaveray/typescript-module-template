@@ -1,3 +1,5 @@
+/* eslint sort-keys: "error" -- Organise rules */
+
 import { globals, makeEslintConfig } from '@averay/codeformat';
 
 export default [
