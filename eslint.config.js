@@ -18,9 +18,5 @@ export default [
     languageOptions: {
       globals: { ...globals.node, ...globals.jest, NodeJS: 'readonly' },
     },
-    rules: {
-      '@typescript-eslint/no-unsafe-assignment': 'off',
-      '@typescript-eslint/no-unsafe-argument': 'off',
-    },
   },
 ];
