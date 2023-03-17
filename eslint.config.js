@@ -10,7 +10,7 @@ export default [
   {
     files: ['src/**/*'],
     languageOptions: {
-      // eslint-disable-next-line capitalized-comments,multiline-comment-style -- For use in generated projects
+      // eslint-disable-next-line multiline-comment-style -- For use in generated projects
       // globals: { ...globals.node, NodeJS: 'readonly' },
       // globals: globals.browser,
     },
