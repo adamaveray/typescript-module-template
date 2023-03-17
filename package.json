@@ -42,7 +42,7 @@
     }
   },
   "devDependencies": {
-    "@averay/codeformat": "^0.1.13",
+    "@averay/codeformat": "^0.1.14",
     "@babel/preset-typescript": "^7.21.0",
     "@types/jest": "^29.5.0",
     "husky": "^8.0.3",
